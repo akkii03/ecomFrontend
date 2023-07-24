@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap");
+
 * {
   padding: 0px;
   margin: 0px;
@@ -64,11 +65,11 @@ a,
   width: 20%;
 }
 
-.leftFooter > h1 {
+.leftFooter>h1 {
   font-family: "Indie Flower", cursive;
 }
 
-.leftFooter > p {
+.leftFooter>p {
   font-family: "Dancing Script";
 }
 
@@ -77,7 +78,7 @@ a,
   text-align: center;
 }
 
-.midFooter > h1 {
+.midFooter>h1 {
   font-size: 4vmax;
 }
 
@@ -102,6 +103,7 @@ a,
   color: var(--primaryColor);
   padding-top: 1rem;
 }
+
 .price {
   color: tomato;
 }
@@ -151,15 +153,16 @@ a,
   transition: all 0.5s;
 }
 
-.product_container > img {
+.product_container>img {
   width: 15vmax;
 }
 
-.product_container > div {
+.product_container>div {
   display: flex;
   flex-direction: row;
 }
-.product_container > div > span {
+
+.product_container>div>span {
   margin-top: 7px;
   padding-left: 6px;
 }
@@ -171,9 +174,11 @@ a,
   color: var(--primaryColor);
   padding-bottom: 12px;
 }
+
 .mainPrice {
   font-size: 3rem;
 }
+
 .icons {
   font-size: 60px;
   margin-right: 2rem;
@@ -245,7 +250,7 @@ a,
   width: 60%;
 }
 
-.productDetails > div {
+.productDetails>div {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
@@ -262,6 +267,7 @@ a,
 .redColor {
   color: red;
 }
+
 .greenColor {
   color: green;
 }
@@ -290,7 +296,7 @@ a,
   gap: 1px;
 }
 
-.detailsBlock-3-1-1 > input {
+.detailsBlock-3-1-1>input {
   border: none;
   color: rgba(0, 0, 0, 0.74);
   outline: none;
@@ -327,6 +333,7 @@ a,
   width: 8rem;
   font-weight: bolder;
 }
+
 .Btn:hover {
   background-color: #1857be;
   transition: 0.4s;
@@ -404,8 +411,8 @@ a,
     rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
 }
 
-.comment > i,
-.comment > p {
+.comment>i,
+.comment>p {
   color: var(--primaryColor);
 }
 
@@ -431,7 +438,7 @@ a,
 }
 
 @media screen and(max-width:600px) {
-  .product_container > div {
+  .product_container>div {
     margin: 0vmax;
     display: block;
   }
@@ -468,6 +475,7 @@ html {
 btn {
   border-radius: 0;
 }
+
 .btn:focus,
 .btn:active,
 .btn.active,
@@ -490,6 +498,7 @@ btn {
   -moz-transition: all 0.6s;
   transition: all 0.6s;
 }
+
 .btn-larger:hover,
 .btn-larger:focus,
 .btn-larger:active,
@@ -500,11 +509,13 @@ btn {
   background-color: #f7ca18;
   border-radius: 0;
 }
+
 .btn-larger:active,
 .btn-larger.active,
 .open .dropdown-toggle.btn-larger {
   background-image: none;
 }
+
 .btn-larger.disabled,
 .btn-larger[disabled],
 fieldset[disabled] .btn-larger,
@@ -523,6 +534,7 @@ fieldset[disabled] .btn-larger.active {
   border-color: #aea8d3;
   background-color: #aea8d3;
 }
+
 .btn-larger .badge {
   color: #aea8d3;
   background-color: #fff;
@@ -545,50 +557,64 @@ div#form {
   font-size: 14px;
   margin-bottom: 5px;
 }
+
 #userform ul {
   list-style-type: none;
   padding: 0;
   margin-bottom: 0px;
 }
+
 #userform {
   background: rgba(0, 0, 0, 0.8);
   margin: 20px 0 20px 0;
 }
+
 @media (min-width: 768px) {
   #userform {
     background: rgba(0, 0, 0, 0.8);
     margin: 50px 0 20px 0;
   }
+  
+.viewOrderContainer>div {
+    border: 1px dashed var(--primaryColor);
+    width: 340px;
 }
-#userform .nav-tabs.nav-justified > li > a {
+}
+
+#userform .nav-tabs.nav-justified>li>a {
   text-transform: uppercase;
   font-size: 20px;
   color: #f7ca18;
   background-color: rgba(90, 90, 90, 0.5);
 }
-#userform .nav-tabs.nav-justified > .active > a,
-#userform .nav-tabs.nav-justified > .active > a:hover,
-#userform .nav-tabs.nav-justified > .active > a:focus {
+
+#userform .nav-tabs.nav-justified>.active>a,
+#userform .nav-tabs.nav-justified>.active>a:hover,
+#userform .nav-tabs.nav-justified>.active>a:focus {
   border: 0;
   background: #f7ca18;
   color: white;
   border-radius: 0;
 }
-#userform .nav-justified > li > a {
+
+#userform .nav-justified>li>a {
   margin-bottom: 0;
   -webkit-transition: all 0.6s;
   -moz-transition: all 0.6s;
   transition: all 0.6s;
 }
-#userform .nav-justified > li > a:hover {
+
+#userform .nav-justified>li>a:hover {
   background: #aea8d3;
   color: #fff;
 }
-#userform .nav-tabs > li > a {
+
+#userform .nav-tabs>li>a {
   border: 0px solid transparent;
   border-radius: 0;
 }
-#userform .nav-tabs.nav-justified > li > a:hover {
+
+#userform .nav-tabs.nav-justified>li>a:hover {
   background: #f7ca18;
   color: #fff;
   border-radius: 0;
@@ -597,9 +623,10 @@ div#form {
   -moz-transition: all 0.6s;
   transition: all 0.6s;
 }
-#userform .nav-tabs > li.active > a,
-#userform .nav-tabs > li.active > a:hover,
-#userform .nav-tabs > li.active > a:focus {
+
+#userform .nav-tabs>li.active>a,
+#userform .nav-tabs>li.active>a:hover,
+#userform .nav-tabs>li.active>a:focus {
   color: #f7ca18;
   cursor: default;
   background-color: transparent;
@@ -608,14 +635,16 @@ div#form {
   -moz-transition: all 0.6s;
   transition: all 0.6s;
 }
+
 @media (min-width: 768px) {
-  #userform .nav-tabs.nav-justified > li > a {
+  #userform .nav-tabs.nav-justified>li>a {
     border: 0;
     -webkit-transition: all 0.6s;
     -moz-transition: all 0.6s;
     transition: all 0.6s;
   }
-  #userform .nav-tabs.nav-justified > li > a:hover {
+
+  #userform .nav-tabs.nav-justified>li>a:hover {
     background-color: #f7ca18;
     border-color: transparent;
     border: 0;
@@ -624,52 +653,64 @@ div#form {
     transition: all 0.6s;
   }
 }
+
 @media (max-width: 768px) {
-  .nav-justified > li {
+  .nav-justified>li {
     display: table-cell !important;
     width: 1% !important;
   }
 }
+
 #userform .nav-tabs {
   border-bottom: 0px solid #ddd;
 }
+
 #userform .tab-pane h2 {
   margin: 10px 0;
   color: #fff;
 }
+
 #userform .tab-pane p.lead {
   margin-top: 20px;
 }
+
 #userform .tab-content {
   padding: 20px;
 }
+
 #userform .form-group {
   margin-bottom: 0px;
   color: #fff;
 }
+
 #userform .form-group input,
 #userform .form-group textarea {
   padding: 10px;
 }
+
 #userform .form-group input.form-control {
   height: auto;
   background-color: rgba(237, 235, 250, 0.1);
   color: #fff;
 }
+
 #userform .form-control {
   border-radius: 0;
   border: 1px solid #fff;
 }
+
 #userform .form-control:focus {
   border-color: #f7ca18;
   box-shadow: none;
 }
+
 #userform::-webkit-input-placeholder {
   text-transform: uppercase;
   font-family: "Dosis", sans-serif;
   font-weight: 700;
   color: #bbb;
 }
+
 #userform #signup .form-group label {
   position: relative;
   -webkit-transform: translateY(35px);
@@ -685,10 +726,12 @@ div#form {
   font-size: 12px;
   font-weight: 300;
 }
+
 #userform #signup .form-group label .req {
   margin: 2px;
   color: #f7ca18;
 }
+
 #userform #signup .form-group label.active {
   -webkit-transform: translateY(0px);
   -ms-transform: translateY(0px);
@@ -696,12 +739,15 @@ div#form {
   left: 2px;
   font-size: 12px;
 }
+
 #userform #signup .form-group label.active .req {
   opacity: 0;
 }
+
 #userform label.highlight {
   color: #ffffff;
 }
+
 #userform #login .form-group label {
   position: relative;
   -webkit-transform: translateY(35px);
@@ -717,10 +763,12 @@ div#form {
   font-size: 12px;
   font-weight: 300;
 }
+
 #userform #login .form-group label .req {
   margin: 2px;
   color: #f7ca18;
 }
+
 #userform #login .form-group label.active {
   -webkit-transform: translateY(0px);
   -ms-transform: translateY(0px);
@@ -728,6 +776,7 @@ div#form {
   left: 2px;
   font-size: 12px;
 }
+
 #userform #login .form-group label.active .req {
   opacity: 0;
 }
@@ -759,7 +808,7 @@ div#form {
   background-color: white;
 }
 
-.profileContainer > div {
+.profileContainer>div {
   display: flex;
   height: 100vh;
   width: 100vw;
@@ -769,7 +818,7 @@ div#form {
   align-items: center;
 }
 
-.profileContainer > div:first-child > h1 {
+.profileContainer>div:first-child>h1 {
   color: rgba(0, 0, 0, 0.555);
   font: 500 2.2vmax "Roboto";
   transform: translateX(-10vmax) translateY(-2vmax);
@@ -856,6 +905,7 @@ div#form {
 .removeBtn {
   cursor: pointer;
 }
+
 .removeBtn:hover {
   transform: scale(1.2);
 }
@@ -890,6 +940,7 @@ div#form {
   display: flex;
   flex-direction: row;
 }
+
 .totalvalue {
   color: var(--primaryColor);
 }
@@ -916,6 +967,14 @@ div#form {
   flex-direction: column;
   gap: 30px;
 }
+
+.shipping_mainDiv>div>svg {
+  transform: translateX(2.5vmax);
+  font-size: 1.6vmax;
+  color: rgba(0, 0, 0, 0.623);
+}
+
+
 
 .shippingDiv > div > input,
 .shippingDiv > div > select {
@@ -959,8 +1018,8 @@ div#form {
     flex-direction: column;
   }
 
-  .profileContainer{
-    flex-direction: column;
+  .profileContainer {
+    flex-direction: row;
   }
 
   .productImg {
@@ -1029,7 +1088,7 @@ div#form {
   padding-top: 2vmax;
 }
 
-.paymentInput {
+.paymentInput,.shippingInput {
   padding: 1vmax 4vmax;
   padding-right: 1vmax;
   box-sizing: border-box;
@@ -1039,7 +1098,13 @@ div#form {
   text-align: center;
 }
 
-.paymentform > div > svg {
+.paymentform>div>svg {
+  transform: translateX(2.5vmax);
+  font-size: 1.6vmax;
+  color: rgba(0, 0, 0, 0.623);
+}
+
+.shipping_mainDiv>div>svg {
   transform: translateX(2.5vmax);
   font-size: 1.6vmax;
   color: rgba(0, 0, 0, 0.623);
@@ -1070,11 +1135,12 @@ div#form {
   justify-content: space-around;
 }
 
-.viewOrderContainer > div {
+.viewOrderContainer>div {
   border: 1px dashed var(--primaryColor);
+  width: 340px;
 }
 
-.viewOrderContainer > div > h4 {
+.viewOrderContainer>div>h4 {
   color: var(--primaryColor);
 }
 
@@ -1136,7 +1202,7 @@ div#form {
   font-size: larger;
 }
 
-.innerCard > h4 {
+.innerCard>h4 {
   justify-content: center;
   align-items: center;
   color: white;
@@ -1172,17 +1238,17 @@ div#form {
   background-color: green;
 }
 
-.logoCss{
+.logoCss {
   width: 55px;
   height: 55px;
 }
 
-body{
-  cursor: url('https://th.bing.com/th/id/OIP.Y1-n5_atVWZ3XozYI5Vo2wHaHa?w=195&h=195&c=7&r=0&o=5&dpr=1.3&pid=1.7'),auto;
+body {
+  cursor: url('https://th.bing.com/th/id/OIP.Y1-n5_atVWZ3XozYI5Vo2wHaHa?w=195&h=195&c=7&r=0&o=5&dpr=1.3&pid=1.7'), auto;
 }
 
 input::-webkit-outer-spin-button,
-input::-webkit-inner-spin-button{
+input::-webkit-inner-spin-button {
   -webkit-appearance: none;
   margin: 0;
 }

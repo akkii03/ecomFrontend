@@ -65,14 +65,14 @@ export default function Home() {
           <Carousel.Item interval={1000}>
             <img
               className="d-block w-100"
-              src="https://rukminim1.flixcart.com/fk-p-flap/844/140/image/8a46c76763c1eaf6.jpg?q=50"
+              src="https://rukminim1.flixcart.com/fk-p-flap/1600/270/image/ed12b7707a04473c.jpg?q=20"
               alt="Image One"
             />
           </Carousel.Item>
           <Carousel.Item interval={1000}>
             <img
-              className="d-block w-100 slider_2"
-              src="https://cdn.mos.cms.futurecdn.net/56166cc33115642046e1db89e171bd49-1200-80.jpg"
+              className="d-block w-100"
+              src="https://rukminim1.flixcart.com/fk-p-flap/1600/270/image/8a2d69109e6ce150.jpg?q=20"
               alt="Image 2"
             />
           </Carousel.Item>

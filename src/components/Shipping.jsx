@@ -4,7 +4,13 @@ import CheckoutSteps from "./CheckoutSteps";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import { useNavigate } from "react-router-dom";
+import HomeIcon from '@mui/icons-material/Home';
 import LocalShippingIcon from '@mui/icons-material/LocalShipping';
+import LocationCityIcon from '@mui/icons-material/LocationCity';
+import LocationOnIcon from '@mui/icons-material/LocationOn';
+import AirportShuttleIcon from '@mui/icons-material/AirportShuttle';
+import LocalPhoneIcon from '@mui/icons-material/LocalPhone';
+import PublicIcon from '@mui/icons-material/Public';
 
 export default function Shipping() {
   const navigate = useNavigate();
@@ -53,7 +59,7 @@ export default function Shipping() {
       <h1>Shipping details</h1>
       <form className="shipping_mainDiv">
         <div>
-          <i class="fa-solid fa-house icons"></i>
+          <HomeIcon/>
           <input
             type="text"
             className="shippingInput"
@@ -63,7 +69,7 @@ export default function Shipping() {
           />
         </div>
         <div>
-          <i class="fa-solid fa-city icons"></i>
+        <LocationCityIcon/>
           <input
             type="text"
             className="shippingInput"
@@ -73,7 +79,7 @@ export default function Shipping() {
           />
         </div>
         <div>
-          <i class="fa-solid fa-location-dot icons"></i>
+          <LocationOnIcon/>
           <input
             type="text"
             className="shippingInput"
@@ -84,7 +90,7 @@ export default function Shipping() {
         </div>
 
         <div>
-        <i class="fa-solid fa-truck-fast icons"></i>
+        <AirportShuttleIcon/>
           
           <input
             type="text"
@@ -98,7 +104,7 @@ export default function Shipping() {
         </div>
 
         <div>
-          <i class="fa-solid fa-phone icons"></i>
+          <LocalPhoneIcon/>
           <input
             type="tel"
             className="shippingInput"
@@ -110,7 +116,7 @@ export default function Shipping() {
           />
         </div>
         <div>
-          <i class="fa-solid fa-earth-americas icons"></i>
+        <PublicIcon/>
           <input
             type="text"
             className="shippingInput"
